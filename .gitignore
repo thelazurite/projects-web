@@ -1,3 +1,7 @@
+# Folders 
+.idea/
+Solution/projects-web/cmake-build-debug/
+
 # Prerequisites
 *.d
 
