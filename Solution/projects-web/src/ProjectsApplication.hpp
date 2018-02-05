@@ -1,12 +1,9 @@
-#ifndef PROJECTSAPPLICATION_H
-#define PROJECTSAPPLICATION_H
-
-#include <Wt/WApplication.h>
-#include <Wt/WBreak.h>
-#include <Wt/WContainerWidget.h>
-#include <Wt/WLineEdit.h>
-#include <Wt/WPushButton.h>
-#include <Wt/WText.h>
+#include <Wt/WApplication>
+#include <Wt/WBreak>
+#include <Wt/WContainerWidget>
+#include <Wt/WLineEdit>
+#include <Wt/WPushButton>
+#include <Wt/WText>
 
 class ProjectsApplication : public Wt::WApplication
 {
@@ -23,5 +20,3 @@ class ProjectsApplication : public Wt::WApplication
     void greet();
 
 };
-
-#endif // PROJECTSAPPLICATION_H
