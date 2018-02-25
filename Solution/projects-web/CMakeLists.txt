@@ -17,4 +17,6 @@ SET (WT_CONNECTOR "wtfcgi" CACHE STRING "Connector used (wthttp or wtfcgi)")
 ADD_SUBDIRECTORY(src)
 
 INCLUDE_DIRECTORIES(/usr/local/include)
+
 LINK_DIRECTORIES(/usr/local/lib)
+
